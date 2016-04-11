@@ -1433,7 +1433,7 @@ cpdefine("inline:com-chilipeppr-widget-xyz", ["chilipeppr_ready", "jquerycookie"
             this.publishSend(cmd);
 
         },
-        isAAxisShowing: false,
+        isAAxisShowing: true,
         showHideAxisA: function () {
             var el = $('#com-chilipeppr-widget-xyz-a');
             if (el.hasClass('hidden')) {
